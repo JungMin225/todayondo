@@ -209,7 +209,7 @@ const scenes = {
     next: 'haerin_call'
   },
   haerin_call: {
-    char: 'img/haerin.gif',
+    char: 'img/Haerin.gif',
     text: '"하은 선배!! 혹시 지금 시간 좀 되세요?"',
     choices: [],
     next: 'haeun_think_haerin'
@@ -221,13 +221,13 @@ const scenes = {
     next: 'haerin_request'
   },
   haerin_request: {
-    char: 'img/haerin.gif',
+    char: 'img/Haerin.gif',
     text: '" 혹시 제 과제 좀 같이 봐주실 수 있을까요? 딱 10분이면 돼요."',
     choices: [],
     next: 'haeun_umm'
   },
   haeun_umm: {
-    char: 'img/haeun.gif',
+    char: 'img/Haeun.gif',
     text: '(어떡하지? 집에 빨리 가서 쉬고싶은데 10분 안으로 끝날까?)',
     choices: [{
         text: '"제가 버스를 놓치면 안 돼서 딱 10분만 봐드릴게요!"',
@@ -253,13 +253,13 @@ const scenes = {
     next: 'haerin_cooperate'
   },
   haerin_cooperate: {
-    char: 'img/haerin.gif',
+    char: 'img/Haerin.gif',
     text: '"정말요? 매번 감사해요ㅠ.ㅠ 다음에 제가 꼭 밥 살게요!"',
     choices: [],
     next: 'chap2_haeun_think_1'
   },
   chap2_haeun_think_1: {
-    char: 'img/haeun.gif',
+    char: 'img/Haeun.gif',
     text: '(이럴 때 조금 거짓말 하는 거지 뭐)',
     choices: [],
     next: 'chapter2_end'
@@ -271,13 +271,13 @@ const scenes = {
     next: 'haerin_criticize'
   },
   haerin_criticize: {
-    char: 'img/haerin.gif',
+    char: 'img/Haerin.gif',
     text: '"아... 넵! 급한 일은 어쩔 수 없으니까요 ㅠ.ㅠ"',
     choices: [],
     next: 'chap2_haeun_think_2'
   },
   chap2_haeun_think_2: {
-    char: 'img/haeun.gif',
+    char: 'img/Haeun.gif',
     text: '(내가 피곤한데 어쩔 수 없잖아...)',
     choices: [],
     next: 'chapter2_end'
@@ -289,13 +289,13 @@ const scenes = {
     next: 'haerin_accept'
   },
   haerin_accept: {
-    char: 'img/haerin.gif',
+    char: 'img/Haerin.gif',
     text: '"감사해요 선배! 선배 밖에 없어요 정말!"',
     choices: [],
     next: 'chap2_haeun_think_3'
   },
   chap2_haeun_think_3: {
-    char: 'img/haeun.gif',
+    char: 'img/Haeun.gif',
     text: '(하... 괜히 도와준다고 했나. 더 피곤한 것 같네)',
     choices: [],
     next: 'chapter2_end'
@@ -501,7 +501,7 @@ ending: {
 
 // ▶ 엔딩1: “나는 괜찮은 사람이었다” 엔딩
 end_ending1: {
-  bg:   'img/ending1_pixel.png',   
+  bg:   'img/Ending1_pixel.png',   
   char: 'img/Haeun.gif',  
   text: [
     '“누구도 상처받지 않았고, 나는 다정한 사람이었다. 그게 나쁜 건 아닌데… 왜 이리 마음이 허전하지?”',
@@ -515,7 +515,7 @@ end_ending1: {
 
 // ▶ 엔딩2: “내가 우선이기만 해도 되는걸까?” 엔딩
 end_ending2: {
-  bg:   'img/ending3_pixel.png',      // (예: 붉은 계열의 긴장감 있는 배경)
+  bg:   'img/Ending3_pixel.png',      // (예: 붉은 계열의 긴장감 있는 배경)
   char: 'img/Haeun.gif',     // 땀 흘리며 고민하는 모습
   text: [
     '“오늘은 피하지도 않았고, 양보하지도 않았다. 그게 후련하기도 했어.”',
@@ -529,7 +529,7 @@ end_ending2: {
 
 // ▶ 엔딩3: “나를 좋아하는 법을 배우는 중” 엔딩
 end_ending3: {
-  bg:   'img/ending2_pixel.png',      // (예: 햇살 든 공원 배경)
+  bg:   'img/Ending2_pixel.png',      // (예: 햇살 든 공원 배경)
   char: 'img/Haeun.gif',     // 잔디에 누워 있는 하은
   text: [
     '“이상하게 나의 마음을 솔직하게 말하니까 마음이 더 편했어.”',
