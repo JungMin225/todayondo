@@ -76,7 +76,7 @@ body {
 }
 
 .char {
-  width: 169px;
+  width: 273px;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -102,6 +102,7 @@ body {
 
 .text {
   margin-bottom: 8px;
+  font-size: 24px;
 }
 
 .choices {
